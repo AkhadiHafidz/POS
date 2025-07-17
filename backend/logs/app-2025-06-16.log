@@ -1,0 +1,86 @@
+ [LOGGER] 2025-06-16 02:52:28.723 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+ [LOGGER] 2025-06-16 02:55:07.804 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+ [LOGGER] 2025-06-16 02:55:08.381 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+ [LOGGER] 2025-06-16 02:55:21.525 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+ [LOGGER] 2025-06-16 02:55:23.568 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+ [LOGGER] 2025-06-16 02:59:07.606 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+ [LOGGER] 2025-06-16 02:59:10.594 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+ [LOGGER] 2025-06-16 03:01:36.724 PM error : controllers/user.controller.js:loginUser - 
+Invalid `prisma.user.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `root` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+ [LOGGER] 2025-06-16 03:14:05.568 PM error : uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\HAFIDZ\OneDrive\Documents\pos\pos\backend\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/pos/pos/backend/src/index.js:9:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-06-16 03:14:27.629 PM error : uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\HAFIDZ\OneDrive\Documents\pos\pos\backend\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/pos/pos/backend/src/index.js:9:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+ [LOGGER] 2025-06-16 03:14:55.254 PM error : uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\HAFIDZ\OneDrive\Documents\pos\pos\backend\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/HAFIDZ/OneDrive/Documents/pos/pos/backend/src/index.js:9:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)

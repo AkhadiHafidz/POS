@@ -1,0 +1,15 @@
+ [LOGGER] 2025-06-20 08:37:03.030 PM error : controllers/order.controller.js:insertOrder - 
+Invalid `prisma.orders.create()` invocation:
+
+{
+  data: {
+    code: "ORD-1750426622997",
+    date: "2025-06-20T13:37:02.000Z",
+    total: 30000,
+    grandTotal: 30000,
+    userId: 1,
++   ppn: Decimal
+  }
+}
+
+Argument `ppn` is missing.

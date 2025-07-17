@@ -1,0 +1,68 @@
+ [LOGGER] 2025-06-23 08:58:29.609 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 08:58:44.048 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 08:59:04.925 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 08:59:43.765 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 09:01:46.300 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 09:02:07.391 AM error : uncaughtException: ENOENT: no such file or directory, unlink 'C:\Users\HAFIDZ\OneDrive\Documents\pos\pos\backend\public\images\kentang-goreng.jpg'
+Error: ENOENT: no such file or directory, unlink 'C:\Users\HAFIDZ\OneDrive\Documents\pos\pos\backend\public\images\kentang-goreng.jpg'
+    at Object.unlinkSync (node:fs:1953:11)
+    at updateProduct (file:///C:/Users/HAFIDZ/OneDrive/Documents/pos/pos/backend/src/controllers/product.controller.js:278:8)
+ [LOGGER] 2025-06-23 09:13:31.849 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 09:20:45.359 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 09:22:06.435 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 09:22:26.130 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 09:23:36.576 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 09:23:47.370 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 09:30:36.527 AM error : controllers/product.controller.js:deleteProduct - ENOENT: no such file or directory, unlink 'C:\Users\HAFIDZ\OneDrive\Documents\pos\pos\backend\public\images\kentang-goreng.jpg'
+ [LOGGER] 2025-06-23 09:38:44.785 AM error : controllers/product.controller.js:deleteProduct - 
+Invalid `prisma.product.delete()` invocation:
+
+
+Foreign key constraint violated: `productId`
+ [LOGGER] 2025-06-23 11:33:13.107 AM error : controllers/user.controller.js:loginUser - secretOrPrivateKey must have a value
+ [LOGGER] 2025-06-23 11:38:33.144 AM error : controllers/user.controller.js:loginUser - secretOrPrivateKey must have a value
+ [LOGGER] 2025-06-23 11:38:40.269 AM error : controllers/user.controller.js:loginUser - secretOrPrivateKey must have a value
