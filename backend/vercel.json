@@ -2,19 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend/src/api/index.js", 
-      "use": "@vercel/node@3.0.12",   
+      "src": "backend/src/api/index.js",
+      "use": "@vercel/node",
       "config": {
         "maxLambdaSize": "10mb",
         "includeFiles": [
-          "backend/src/**",          
+          "backend/src/**",
           "backend/node_modules/**",
           "backend/.env"
         ]
       }
     },
     {
-      "src": "frontend/index.html",
+      "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "frontend/dist"
@@ -23,12 +23,12 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)", 
-      "dest": "/backend/src/api/index.js" 
+      "src": "/api/(.*)",
+      "dest": "/backend/src/api/index.js"
     },
     {
       "src": "/(.*)",
-      "dest": "/frontend/$1"
+      "dest": "/frontend/dist/$1"
     }
   ],
   "installCommand": "npm install --prefix backend && npm install --prefix frontend",
