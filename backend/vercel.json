@@ -3,37 +3,32 @@
   "builds": [
     {
       "src": "backend/src/api/index.js", // Path ke serverless function Anda
-      "use": "@vercel/node",
+      "use": "@vercel/node@3.0.12",   // Gunakan versi yang stabil
       "config": {
         "maxLambdaSize": "10mb",
         "includeFiles": [
-          "backend/src/controllers/**", // Sertakan controllers
-          "backend/src/middleware/**", // Sertakan middleware
-          "backend/src/routes/**",     // Sertakan routes
-          "backend/src/templates/**",  // Sertakan templates (jika digunakan)
-          "backend/src/utils/**",      // Sertakan utils
-          "backend/src/validations/**",// Sertakan validations
-          "backend/node_modules/**",   // Sertakan node_modules backend
-          "backend/.env"               // Sertakan .env untuk build (Vercel akan override dengan env varsnya)
+          "backend/src/**",          // Termasuk semua di src (controllers, middleware, routes, dll.)
+          "backend/node_modules/**",
+          "backend/.env"
         ]
       }
     },
     {
-      "src": "frontend/index.html", // Entry point frontend Vite/React
+      "src": "frontend/index.html",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "frontend/dist" // Lokasi output build Vite
+        "distDir": "frontend/dist"
       }
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)", // Semua permintaan ke /api/
-      "dest": "/backend/src/api/index.js" // Diarahkan ke serverless function backend Anda
+      "src": "/api/(.*)", // Tangkap semua yang diawali /api/
+      "dest": "/backend/src/api/index.js" // Arahkan ke serverless function Anda
     },
     {
-      "src": "/(.*)",    // Semua permintaan lainnya
-      "dest": "/frontend/$1" // Diarahkan ke frontend statis Anda
+      "src": "/(.*)",
+      "dest": "/frontend/$1"
     }
   ],
   "installCommand": "npm install --prefix backend && npm install --prefix frontend",
