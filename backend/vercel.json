@@ -2,12 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend/src/api/index.js", // Path ke serverless function Anda
-      "use": "@vercel/node@3.0.12",   // Gunakan versi yang stabil
+      "src": "backend/src/api/index.js", 
+      "use": "@vercel/node@3.0.12",   
       "config": {
         "maxLambdaSize": "10mb",
         "includeFiles": [
-          "backend/src/**",          // Termasuk semua di src (controllers, middleware, routes, dll.)
+          "backend/src/**",          
           "backend/node_modules/**",
           "backend/.env"
         ]
@@ -23,8 +23,8 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)", // Tangkap semua yang diawali /api/
-      "dest": "/backend/src/api/index.js" // Arahkan ke serverless function Anda
+      "src": "/api/(.*)", 
+      "dest": "/backend/src/api/index.js" 
     },
     {
       "src": "/(.*)",
